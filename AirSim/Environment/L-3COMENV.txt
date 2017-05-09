@@ -1,0 +1,90 @@
+#-------------------------------------------------------------------------------
+# Copyright (C) 2017, Paul Scerri, Sean R Owens
+# All rights reserved.
+# 
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are met:
+# 
+# 1. Redistributions of source code must retain the above copyright notice,
+#    this list of conditions and the following disclaimer.
+# 
+# 2. Redistributions in binary form must reproduce the above copyright notice,
+#    this list of conditions and the following disclaimer in the documentation
+#    and/or other materials provided with the distribution.
+# 
+# 3. Neither the name of the copyright holder nor the names of its contributors
+#    may be used to endorse or promote products derived from this software
+#    without specific prior written permission.
+# 
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+# AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+# ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+# LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+# CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+# SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+# INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+# CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+# ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+# POSSIBILITY OF SUCH DAMAGE.
+#-------------------------------------------------------------------------------
+# Roads
+ROADCOUNT 2
+ROAD R1 520 520 580 580
+ROAD R2 580 580 630 580
+#Buildings
+BUILDING B1 518.0 523.0 522.0 538.0 3.0
+BUILDING B2 538.0 523.0 542.0 538.0 3.0
+# Wasms
+WASM B-W-0 1000 1000 1000
+#WASM B-W-1 33119 37805 1000
+#WASM B-W-2 33119 37805 1000
+#WASM B-W-3 33119 37805 1000
+WASM B-W-4 3500 1000 1000
+WASM B-W-5 6000 1000 1000 
+# Convoy under protection ... 
+#HUMMER H-0 13119 34805 BLUEFOR
+#HUMMER H-1 13319 34605 BLUEFOR
+#HUMMER H-2 13519 34405 BLUEFOR
+#HUMMER H-3 13719 34205 BLUEFOR
+#HUMMER H-4 13919 34005 BLUEFOR
+#HUMMER H-5 14119 33805 BLUEFOR
+# Radio Signal Detectors
+SENSOR S-1 1000 1000 1000 B-W-0
+SENSOR S-2 3500 1000 1000 B-W-4
+SENSOR S-3 6000 1000 1000 B-W-5
+
+# MUAV Swarm
+#MICRO_UAV MUAV-0 13119 34805 1000 BLUEFOR
+
+# Red Team
+M2TANK R-M2-0 27643 10575 OPFOR
+M2TANK R-M2-1 27748 10675 OPFOR
+M2TANK R-M2-2 27853 10775 OPFOR
+M2TANK R-M2-3 2973 25000 OPFOR
+M2TANK R-M2-4 27363 10975 OPFOR
+
+M2TANK R-M2-5 4973 17938 OPFOR
+M2TANK R-M2-6 23119 27000 OPFOR
+M2TANK R-M2-7 23119 9000 OPFOR
+M2TANK R-M2-8 33119 22000 OPFOR
+M2TANK R-M2-9 19344 2275 OPFOR
+
+# Radio Signal Emitters
+EMITTER E-1 23119 27000 1000 R-M2-6 
+EMITTER E-2 23119 9000 1000 R-M2-7
+EMITTER E-3 27363 10975 1000 R-M2-4 
+EMITTER E-4 33119 22000 1000 R-M2-8
+EMITTER E-5 4973 17938 1000 R-M2-5
+EMITTER E-6  2973 25000 1000 R-M2-3
+CTDB_BASE_NAME /usr1/grd/ntc/ntc_tin_v2.5_071898_0_0_50000_50000_050
+
+
+
+
+
+
+
+
+
+

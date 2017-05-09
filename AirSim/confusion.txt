@@ -1,0 +1,46 @@
+#-------------------------------------------------------------------------------
+# Copyright (C) 2017, Paul Scerri, Sean R Owens
+# All rights reserved.
+# 
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are met:
+# 
+# 1. Redistributions of source code must retain the above copyright notice,
+#    this list of conditions and the following disclaimer.
+# 
+# 2. Redistributions in binary form must reproduce the above copyright notice,
+#    this list of conditions and the following disclaimer in the documentation
+#    and/or other materials provided with the distribution.
+# 
+# 3. Neither the name of the copyright holder nor the names of its contributors
+#    may be used to endorse or promote products derived from this software
+#    without specific prior written permission.
+# 
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+# AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+# ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+# LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+# CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+# SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+# INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+# CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+# ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+# POSSIBILITY OF SUCH DAMAGE.
+#-------------------------------------------------------------------------------
+GT	T80    T72M   M1     M1A1   M1A2   2S6    ZSU23  M977   M35    AVNGR  HMMWV  SA_9   CLTTR
+T80	0.400  0.300  0.050  0.050  0.050  0.020  0.030  0.001  0.001  0.001  0.001  0.001  0.095
+T72M	0.300  0.400  0.050  0.050  0.050  0.020  0.030  0.001  0.001  0.001  0.001  0.001  0.095
+M1	0.050  0.050  0.280  0.240  0.230  0.020  0.030  0.001  0.001  0.001  0.001  0.001  0.095
+M1A1	0.050  0.050  0.200  0.280  0.270  0.020  0.030  0.001  0.001  0.001  0.001  0.001  0.095
+M1A2	0.050  0.050  0.200  0.270  0.280  0.020  0.030  0.001  0.001  0.001  0.001  0.001  0.095
+2S6	0.001  0.001  0.001  0.001  0.001  0.400  0.200  0.001  0.001  0.050  0.001  0.001  0.341
+ZSU23	0.001  0.001  0.001  0.001  0.001  0.200  0.400  0.001  0.001  0.050  0.001  0.001  0.341
+M977	0.001  0.001  0.001  0.001  0.001  0.001  0.001  0.300  0.150  0.050  0.001  0.001  0.491
+M35	0.001  0.001  0.001  0.001  0.001  0.001  0.001  0.100  0.350  0.100  0.050  0.050  0.343
+AVNGR	0.001  0.001  0.001  0.001  0.001  0.001  0.001  0.050  0.100  0.350  0.150  0.050  0.293
+HMMWV	0.001  0.001  0.001  0.001  0.001  0.001  0.001  0.001  0.050  0.150  0.200  0.100  0.492
+SA_9	0.001  0.001  0.001  0.001  0.001  0.001  0.001  0.001  0.050  0.050  0.100  0.150  0.642
+CLTTR	0.001  0.001  0.001  0.001  0.001  0.001  0.001  0.005  0.010  0.005  0.010  0.010  0.953
+
+Note, M977, HMMWV is more likely to be reported as clutter than itself
